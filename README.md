@@ -63,3 +63,13 @@ Either:
 -uniq : remove duplicate lines
 -wc: number of lines, word count, bytes, character count
 
+
+### Batch Processing
+- echo - prints the value of a variable. (Use $ sign before the variable name)
+To create a shell variable, assign a value to a name(ensure no spacing). For example
+```shell
+testing=seasonal/winter.csv
+```
+- Loops
+The structure is for …variable… in …list… ; do …body… ; done
+- Use ; to separate commands in the body
