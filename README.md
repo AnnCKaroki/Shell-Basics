@@ -44,3 +44,22 @@ Common flags:
 -l: print the names of files that contain matches, not the matches
 -n: print line numbers for matching lines
 -v: invert the match, i.e., only show lines that don't match
+
+
+### Combining tools
+- (>) ->redirects the output to a file
+- | ->used for chaining commands
+- * -> specifies the list of files(it is a wildcard)
+- ? ->matches a single character
+- [...] ->matches any one of the characters
+- {...} ->matches any of the characters
+- sort -> puts data in order. By default its ascending alphabetical order
+Either:
+-n : numerically
+-r : reverse the order of output
+-b : ignore the leading blanks
+-f : fold case(be case sensitive)
+--------------------------------------------
+-uniq : remove duplicate lines
+-wc: number of lines, word count, bytes, character count
+
